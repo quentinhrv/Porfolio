@@ -1,0 +1,51 @@
+$font-family-main: 'Quicksand', sans-serif;
+
+$font-size-header: 30px;
+$font-size-header-mobile : 25px;
+$font-size-nav-menu : 18px;
+$font-size-description : 14px;
+$font-size-title-section : 13px;
+
+body {
+    font-family: $font-family-main;
+    margin: auto;
+}
+
+h1 {
+    font-size: $font-size-header;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: $font-size-title-section;
+    margin: auto;
+}
+
+.nav-menu {
+    font-size: $font-size-nav-menu;
+    font-weight: 100;
+}
+
+.fa-bars, .fa-xmark {
+    font-size: $font-size-header;
+}
+
+.description-text {
+    font-size: $font-size-description;
+}
+
+.website-title, .tech-name {
+    font-size: $font-size-title-section;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (max-width: 720px) {
+
+    h1, .fa-bars, .fa-xmark {
+        font-size: $font-size-header-mobile;
+    }
+}
